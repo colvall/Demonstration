@@ -23,6 +23,9 @@ public class Main {
 	e= new Employe("ddd", "d", 10);
 	e.ajouterEmploye();
 	
+	e= new Employe("222", "e", 11);
+	e.ajouterEmploye();
+	
 	
 	if (Employe.chercherEmploye(99)==null) System.out.println("null");
     System.out.println(Employe.chercherEmploye(100).toString());
